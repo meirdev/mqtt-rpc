@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mqtt-rpc"
+version = "0.1.0"
+description = ""
+authors = ["meirdev <maornet@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asyncio-mqtt = "^0.12.1"
+dataclasses-json = "^0.5.7"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.982"
+black = "^22.10.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
