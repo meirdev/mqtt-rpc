@@ -45,7 +45,7 @@ class Task:
         )
 
         await connection.publish(
-            "/".join([self._app.name, REQUESTS, ALL]), request.to_json(), qos=0
+            "/".join([self._app.name, REQUESTS, ALL]), request.to_json(), qos=2
         )
 
         task_request = TaskRequest(self, request)
