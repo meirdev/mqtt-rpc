@@ -7,7 +7,7 @@ Implementation of RPC over MQTT.
 Run the broker:
 
 ```bash
-./broker/run.sh
+cd ./broker && ./run.sh
 ```
 
 Create a new app instance (`app.py`):
